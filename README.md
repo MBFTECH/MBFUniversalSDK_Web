@@ -1,7 +1,3 @@
----
-toc: content
----
-
 # MBFUniversalSDK
 
 Ads and Analytics Framework

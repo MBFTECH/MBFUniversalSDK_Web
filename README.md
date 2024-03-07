@@ -8,7 +8,7 @@ To install MBFUniversalSDK, you need to add the following script tag to your HTM
 
 ```javascript
 <script>
-  window.MBFSDK||(window.MBFSDK={}),AiactivSDK.load=function(a){var b=document.createElement("script");b.async=!0,b.type="text/javascript",b.src="https://raw.githubusercontent.com/MBFTECH/MBFUniversalSDK_Web/main/mbf-sdk.min.js",b.addEventListener?b.addEventListener("load",function(b){"function"==typeof a&&a(b)},!1):b.onreadystatechange=function(){("complete"==this.readyState||"loaded"==this.readyState)&&a(window.event)};let c=document.getElementsByTagName("script")[0];c.parentNode.insertBefore(b,c)},MBFSDK.load(function(){AiactivSDK.initialize({containerId:"{ContainerID}", type: {SDK_TYPES}}),MBFSDK.callMethodsFromContainer()});
+  window.MBFSDK||(window.MBFSDK={}),MBFSDK.load=function(a){var b=document.createElement("script");b.async=!0,b.type="text/javascript",b.src="https://raw.githubusercontent.com/MBFTECH/MBFUniversalSDK_Web/main/mbf-sdk.min.js",b.addEventListener?b.addEventListener("load",function(b){"function"==typeof a&&a(b)},!1):b.onreadystatechange=function(){("complete"==this.readyState||"loaded"==this.readyState)&&a(window.event)};let c=document.getElementsByTagName("script")[0];c.parentNode.insertBefore(b,c)},MBFSDK.load(function(){MBFSDK.initialize({containerId:"{ContainerID}", type: {SDK_TYPES}}),MBFSDK.callMethodsFromContainer()});
 </script>
 ```
 
@@ -34,7 +34,7 @@ This will load MBFUniversalSDK from our CDN and make it available as a global va
 - Then call for display ads
 
 ```javascript
-window.AiactivSDK.requestAds([
+window.MBFSDK.requestAds([
   {
     inventoryId: 1, // your inventory ID from portal,
     placementId: 'display_ads',

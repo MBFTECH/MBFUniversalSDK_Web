@@ -8,7 +8,7 @@ To install MBFUniversalSDK, you need to add the following script tag to your HTM
 
 ```javascript
 <script type='text/javascript'>
-   window.AiactivSDK||(window.AiactivSDK={}),AiactivSDK.load=function(t){var e=document.createElement('script');e.async=!0,e.type="text/javascript",e.src="https://sdk-cdn.aiactiv.io/aiactiv-sdk.min.js?t="+Date.now(),e.addEventListener?e.addEventListener('load',function(e){'function'==typeof t&&t(e)},!1):e.onreadystatechange=function(){('complete'==this.readyState||'loaded'==this.readyState)&&t(window.event)};let a=document.getElementsByTagName('script')[0];a.parentNode.insertBefore(e,a)},AiactivSDK.load(function(){AiactivSDK.initialize({containerId:'3badcda4-4db5-4717-b3e7-977f95a6292e@webtv', type: ['adnetwork','dmp']}),AiactivSDK.callMethodsFromContainer()});
+   window.AiactivSDK||(window.AiactivSDK={}),AiactivSDK.load=function(t){var e=document.createElement('script');e.async=!0,e.type="text/javascript",e.src="https://sdk-cdn.aiactiv.io/aiactiv-sdk.min.js?t="+Date.now(),e.addEventListener?e.addEventListener('load',function(e){'function'==typeof t&&t(e)},!1):e.onreadystatechange=function(){('complete'==this.readyState||'loaded'==this.readyState)&&t(window.event)};let a=document.getElementsByTagName('script')[0];a.parentNode.insertBefore(e,a)},AiactivSDK.load(function(){AiactivSDK.initialize({containerId:'3badcda4-4db5-4717-b3e7-977f95a6292e@web', type: ['adnetwork','dmp']}),AiactivSDK.callMethodsFromContainer()});
 </script>
 ```
 
@@ -17,7 +17,7 @@ This will load MBFUniversalSDK from our CDN and make it available as a global va
 - `{SDK_TYPE}` is adnetwork or dmp.
   - Exp: ['adnetwork', 'dmp']
 - `{ContainerID}` is containerID from AdNetwork portal site: https://adnetwork-portal.aiactiv.io/#/container/{ContainerID}
-  - Exp: 4ceed9c8-c28f-4a7a-8646-9b071f4c29c7@web
+  - Exp: 3badcda4-4db5-4717-b3e7-977f95a6292e@web
 
 ## Usage
 

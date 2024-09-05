@@ -7,8 +7,8 @@ Ads and Analytics Framework
 To install MBFUniversalSDK, you need to add the following script tag to your HTML file:
 
 ```javascript
-<script>
-  window.MBFSDK||(window.MBFSDK={}),MBFSDK.load=function(a){var b=document.createElement("script");b.async=!0,b.type="text/javascript",b.src="https://mbftech.github.io/MBFUniversalSDK_Web/mbf-sdk.min.js",b.addEventListener?b.addEventListener("load",function(b){"function"==typeof a&&a(b)},!1):b.onreadystatechange=function(){("complete"==this.readyState||"loaded"==this.readyState)&&a(window.event)};let c=document.getElementsByTagName("script")[0];c.parentNode.insertBefore(b,c)},MBFSDK.load(function(){MBFSDK.initialize({containerId:"{ContainerID}", type: {SDK_TYPES}}),MBFSDK.callMethodsFromContainer()});
+<script type='text/javascript'>
+   window.AiactivSDK||(window.AiactivSDK={}),AiactivSDK.load=function(t){var e=document.createElement('script');e.async=!0,e.type="text/javascript",e.src="https://sdk-cdn.aiactiv.io/aiactiv-sdk.min.js?t="+Date.now(),e.addEventListener?e.addEventListener('load',function(e){'function'==typeof t&&t(e)},!1):e.onreadystatechange=function(){('complete'==this.readyState||'loaded'==this.readyState)&&t(window.event)};let a=document.getElementsByTagName('script')[0];a.parentNode.insertBefore(e,a)},AiactivSDK.load(function(){AiactivSDK.initialize({containerId:'3badcda4-4db5-4717-b3e7-977f95a6292e@webtv', type: ['adnetwork','dmp']}),AiactivSDK.callMethodsFromContainer()});
 </script>
 ```
 

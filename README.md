@@ -12,13 +12,6 @@ To install MBFUniversalSDK, you need to add the following script tag to your HTM
 </script>
 ```
 
-This will load MBFUniversalSDK from our CDN and make it available as a global variable named `MBFSDK`.
-
-- `{SDK_TYPE}` is adnetwork or dmp.
-  - Exp: ['adnetwork', 'dmp']
-- `{ContainerID}` is containerID from AdNetwork portal site: https://adnetwork-portal.aiactiv.io/#/container/{ContainerID}
-  - Exp: 3badcda4-4db5-4717-b3e7-977f95a6292e@web
-
 ## Usage
 
 ### AdNetwork

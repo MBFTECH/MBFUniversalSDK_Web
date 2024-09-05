@@ -8,7 +8,7 @@ To install MBFUniversalSDK, you need to add the following script tag to your HTM
 
 ```javascript
 <script type='text/javascript'>
- &nbsp; window.AiactivSDK||(window.AiactivSDK={}),AiactivSDK.load=function(t){var e=document.createElement('script');e.async=!0,e.type="text/javascript",e.src="https://mbftech.github.io/MBFUniversalSDK_Web/mbf-sdk.min.js?t="+Date.now(),e.addEventListener?e.addEventListener('load',function(e){'function'==typeof t&&t(e)},!1):e.onreadystatechange=function(){('complete'==this.readyState||'loaded'==this.readyState)&&t(window.event)};let a=document.getElementsByTagName('script')[0];a.parentNode.insertBefore(e,a)},AiactivSDK.load(function(){AiactivSDK.initialize({containerId:'3badcda4-4db5-4717-b3e7-977f95a6292e@web', type: ['adnetwork','dmp']}),AiactivSDK.callMethodsFromContainer()});
+   window.AiactivSDK||(window.AiactivSDK={}),AiactivSDK.load=function(t){var e=document.createElement('script');e.async=!0,e.type="text/javascript",e.src="https://mbftech.github.io/MBFUniversalSDK_Web/mbf-sdk.min.js?t="+Date.now(),e.addEventListener?e.addEventListener('load',function(e){'function'==typeof t&&t(e)},!1):e.onreadystatechange=function(){('complete'==this.readyState||'loaded'==this.readyState)&&t(window.event)};let a=document.getElementsByTagName('script')[0];a.parentNode.insertBefore(e,a)},AiactivSDK.load(function(){AiactivSDK.initialize({containerId:'3badcda4-4db5-4717-b3e7-977f95a6292e@web', type: ['adnetwork','dmp']}),AiactivSDK.callMethodsFromContainer()});
 </script>
 ```
 
